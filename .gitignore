@@ -8,22 +8,22 @@
 
 #User-specific files found in top level directory
 
-styling.wcp_settings
-styling.recent_files
-styling.DatabaseExplorer
-styling.MUF
-styling.WebPublishHistory
-styling.Default.History
-styling.*.DefWebProject
-styling.*.RecentWebProject
+*.wcp_settings
+*.recent_files
+*.DatabaseExplorer
+*.MUF
+*.WebPublishHistory
+*.Default.History
+*.*.DefWebProject
+*.*.RecentWebProject
 
 # Uncomment if using a Filesystem Library (A5Lib)
-#styling.ALM
-#styling.Alx
-#styling.MUF
-#styling.old_alb
-#*styling.old_alm
-#styling.old_alx
+styling.ALM
+styling.Alx
+styling.MUF
+styling.old_alb
+*styling.old_alm
+styling.old_alx
 
 #Recommended. Files under <workspace>.A5Lib.resources (if A5Lib is used)
 *.a5settings
@@ -37,6 +37,7 @@ styling.*.RecentWebProject
 
 #Files in the web project folder for each project
 *.tmp
+*.backup
 componentTypeCache
 lastSelectedProfile
 
