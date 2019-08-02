@@ -167,7 +167,7 @@
         "info": {
             "createdBy": "sarah",
             "dateCreated": "2019-7-31",
-            "dateLastEdited": "2019-7-31"
+            "dateLastEdited": "2019-8-2"
         },
         "flagShowCommentsInTree": true,
         "treeCommentOffset": "6",
@@ -211,13 +211,6 @@
                 "displayOD": "{B=White,Light Blue}{Data=b5ffc209-9be5-4142-9dc0-2c31e4d92b5e}{I:'$$control.button'} [Button: Open Window] �",
                 "displayODtree": "{B=White,Light Blue}{Data=b5ffc209-9be5-4142-9dc0-2c31e4d92b5e}{I:'$$control.button'} [Button: Open Window] �",
                 "crc": "4294953408",
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
-                "containerStartIndex": 0,
                 "v": {
                     "buttonText": "Open Window",
                     "Class": "<Default>",
@@ -269,6 +262,9 @@
                         "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_1'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Open Window',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}:primary'\n});",
                         "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_1'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_1');"
                     },
+                    "javascript": {
+                        "onclick": ""
+                    },
                     "info": {
                         "parentContainerID": "",
                         "isContainerStart": false,
@@ -289,21 +285,25 @@
                         "lastItemInTabPane": false,
                         "inContainer": false,
                         "index": 1
-                    },
-                    "javascript": {
-                        "onclick": ""
                     }
-                }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
-                "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=b182cee9-4ccb-498e-9e62-870baaa68077}{I:'$$window.cascade'} [Window:WINDOW_1]",
+                "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=b182cee9-4ccb-498e-9e62-870baaa68077}{I:'$$window.cascade'}[Window:WINDOW_1]",
                 "displayODFlat": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=b182cee9-4ccb-498e-9e62-870baaa68077}{I:'$$window.cascade'} [Window:WINDOW_1]",
                 "idInternal": "b182cee9-4ccb-498e-9e62-870baaa68077",
                 "lastIndex": 6,
                 "displayOD": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=b182cee9-4ccb-498e-9e62-870baaa68077}{I:'$$window.cascade'} [Window:WINDOW_1]",
                 "displayODtree": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=b182cee9-4ccb-498e-9e62-870baaa68077}{I:'$$window.cascade'} [Window:WINDOW_1]",
-                "crc": "4294904545",
+                "crc": "4294916578",
                 "precalc": {
                     "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.WINDOW_1\"   \n\t\t\tclass=\"\"  style=\"; display: none;\"  ><!--DIV for Container control-->",
                     "DesignViewHTML": ""
@@ -471,14 +471,18 @@
                                             "location": "right",
                                             "offset": "0px",
                                             "top": "0px",
-                                            "bottom": "0px"
+                                            "bottom": "0px",
+                                            "className": "",
+                                            "barClassName": ""
                                         },
                                         "h": {
                                             "show": true,
                                             "location": "top",
                                             "offset": "0px",
                                             "left": "0px",
-                                            "right": "0px"
+                                            "right": "0px",
+                                            "className": "",
+                                            "barClassName": ""
                                         }
                                     }
                                 }
@@ -521,7 +525,7 @@
                         "inTabPane": false,
                         "lastID": "1be7ac64-d44e-4dba-a702-c854eda1d6a8",
                         "displaytext": "[Window:WINDOW_1]",
-                        "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=b182cee9-4ccb-498e-9e62-870baaa68077}{I:'$$window.cascade'} [Window:WINDOW_1]",
+                        "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=b182cee9-4ccb-498e-9e62-870baaa68077}{I:'$$window.cascade'}[Window:WINDOW_1]",
                         "istabcontrolend": false,
                         "lastItemInTabPane": false,
                         "inContainer": false,
@@ -538,9 +542,6 @@
                 "displayOD": "{B=White,Light Blue}{I:'vertline'}{Data=1a48c06e-0552-4b4a-82a7-75a3fd28f164}{I:'$$control.edit'} [textbox1] �",
                 "displayODtree": "{B=White,Light Blue}{I:'vertline'}{Data=1a48c06e-0552-4b4a-82a7-75a3fd28f164}{I:'$$control.edit'} [textbox1] �",
                 "crc": "4294960770",
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
-                "containerStartIndex": 0,
                 "v": {
                     "controlType": "textbox",
                     "variableName": "textbox1",
@@ -554,7 +555,6 @@
                             "openLookupOnFocus": false
                         }
                     },
-                    "textboxSubTheme": "",
                     "textboxAutocorrect": true,
                     "textboxAutoCapitalize": true,
                     "label": "Textbox1",
@@ -573,8 +573,6 @@
                     "clientSideFormat": {
                         "type": "Mask"
                     },
-                    "getFunction": "",
-                    "setFunction": "",
                     "onChange_ValidationOption": "Client-side only",
                     "dataBinding": {
                         "updateable": true,
@@ -589,11 +587,10 @@
                             "inkunits": 1
                         }
                     },
+                    "textboxSubTheme": "",
+                    "getFunction": "",
+                    "setFunction": "",
                     "datePicker": {
-                        "friendlyDisplay": {
-                            "enabled": false,
-                            "settingsJSON": ""
-                        },
                         "displayTimePicker": false,
                         "openMethod": "ClickIcon",
                         "dateFormat": "<Default>",
@@ -610,10 +607,16 @@
                             "mask": ""
                         },
                         "timePickerOptionsDefined": false,
-                        "display": false
+                        "display": false,
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        }
                     },
-                    "specialtype": "None",
-                    "specialtypeJSON": "",
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    },
                     "info": {
                         "parentContainerID": "b182cee9-4ccb-498e-9e62-870baaa68077",
                         "isContainerStart": false,
@@ -635,17 +638,18 @@
                         "index": 3,
                         "color": ""
                     },
-                    "displayAsSlider": false,
                     "listView": {
                         "class": ""
                     },
+                    "specialtype": "None",
+                    "specialtypeJSON": "",
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
-                    },
-                    "flags": {
-                        "clientSideDefinition": false
                     }
                 },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0,
                 "precalc": {
                     "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.TEXTBOX1\" for=\"{grid.componentname}.V.R{grid.rownumber}.TEXTBOX1\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">Textbox1</label>\n<!--LblE-->\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.TEXTBOX1\" title=\"\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.TEXTBOX1\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
                     "DesignViewHTML": "",
@@ -661,9 +665,6 @@
                 "displayOD": "{B=White,Light Blue}{I:'vertline'}{Data=7aac12c6-34a1-4393-8f90-369476c34266}{I:'$$control.editCombo'} [dropdownbox1] �",
                 "displayODtree": "{B=White,Light Blue}{I:'vertline'}{Data=7aac12c6-34a1-4393-8f90-369476c34266}{I:'$$control.editCombo'} [dropdownbox1] �",
                 "crc": "4294945732",
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
-                "containerStartIndex": 0,
                 "v": {
                     "controlType": "dropdownbox",
                     "variableName": "dropdownbox1",
@@ -677,7 +678,6 @@
                             "openLookupOnFocus": false
                         }
                     },
-                    "textboxSubTheme": "",
                     "textboxAutocorrect": true,
                     "textboxAutoCapitalize": true,
                     "label": "Dropdownbox1",
@@ -696,8 +696,6 @@
                     "clientSideFormat": {
                         "type": "Mask"
                     },
-                    "getFunction": "",
-                    "setFunction": "",
                     "onChange_ValidationOption": "Client-side only",
                     "dataBinding": {
                         "updateable": true,
@@ -712,11 +710,10 @@
                             "inkunits": 1
                         }
                     },
+                    "textboxSubTheme": "",
+                    "getFunction": "",
+                    "setFunction": "",
                     "datePicker": {
-                        "friendlyDisplay": {
-                            "enabled": false,
-                            "settingsJSON": ""
-                        },
                         "displayTimePicker": false,
                         "openMethod": "ClickIcon",
                         "dateFormat": "<Default>",
@@ -733,18 +730,50 @@
                             "mask": ""
                         },
                         "timePickerOptionsDefined": false,
-                        "display": false
+                        "display": false,
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        }
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    },
+                    "info": {
+                        "parentContainerID": "b182cee9-4ccb-498e-9e62-870baaa68077",
+                        "isContainerStart": false,
+                        "isContainerEnd": false,
+                        "isTabPaneEnd": false,
+                        "inRepeatingSection": false,
+                        "repeatingSectionParentId": "",
+                        "isTabControlStart": false,
+                        "parentTabId": "",
+                        "parentTabPaneID": "",
+                        "level": 1,
+                        "icon": "$$control.editCombo",
+                        "inTabPane": false,
+                        "displaytext": "[dropdownbox1]",
+                        "display": "{B=White,Light Blue}{I:'vertline'}{Data=7aac12c6-34a1-4393-8f90-369476c34266}{I:'$$control.editCombo'} [dropdownbox1] �",
+                        "istabcontrolend": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "index": 4,
+                        "color": ""
+                    },
+                    "listView": {
+                        "class": ""
                     },
                     "dropdownbox": {
-                        "size": 1,
                         "type": "Static",
+                        "choicesVariableName": "",
+                        "size": 1,
                         "selectStyle": "Single",
                         "choices": "",
                         "errorinlinestyle": "",
                         "datasource": "AlphaDAO",
                         "additionalChoicesPre": "",
                         "additionalChoicesPost": "",
-                        "choicesVariableName": "",
                         "dbf": {
                             "table": "",
                             "displayValueField": "",
@@ -772,38 +801,13 @@
                         "autoSubmitSearch": false,
                         "flagIsDefined": false
                     },
-                    "info": {
-                        "parentContainerID": "b182cee9-4ccb-498e-9e62-870baaa68077",
-                        "isContainerStart": false,
-                        "isContainerEnd": false,
-                        "isTabPaneEnd": false,
-                        "inRepeatingSection": false,
-                        "repeatingSectionParentId": "",
-                        "isTabControlStart": false,
-                        "parentTabId": "",
-                        "parentTabPaneID": "",
-                        "level": 1,
-                        "icon": "$$control.editCombo",
-                        "inTabPane": false,
-                        "displaytext": "[dropdownbox1]",
-                        "display": "{B=White,Light Blue}{I:'vertline'}{Data=7aac12c6-34a1-4393-8f90-369476c34266}{I:'$$control.editCombo'} [dropdownbox1] �",
-                        "istabcontrolend": false,
-                        "lastItemInTabPane": false,
-                        "inContainer": true,
-                        "index": 4,
-                        "color": ""
-                    },
-                    "displayAsSlider": false,
-                    "listView": {
-                        "class": ""
-                    },
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
-                    },
-                    "flags": {
-                        "clientSideDefinition": false
                     }
                 },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0,
                 "precalc": {
                     "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.DROPDOWNBOX1\" for=\"{grid.componentname}.V.R{grid.rownumber}.DROPDOWNBOX1\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">Dropdownbox1</label>\n<!--LblE-->\n\t<!--FldS--><select \t\n\t\tsize=\"1\" \n\t\tclass=\"[class.dialogSelect]\"  \n\t\tname=\"V.R{grid.rownumber}.DROPDOWNBOX1\" \n\t\ttitle=\"\"\n\t\tstyle=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"\n\t\tid=\"{grid.componentname}.V.R{grid.rownumber}.DROPDOWNBOX1\"  \n\t\t  \n\t\t\n\t\t\n\t\t >\n{dialog.dropdownboxchoices.DROPDOWNBOX1}\n</select>\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
                     "DesignViewHTML": "",
@@ -812,13 +816,13 @@
             },
             {
                 "controlType": "dialog_formcontrol",
-                "display": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'} [viewbox1]",
+                "display": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'}[viewbox1]",
                 "displayODFlat": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'} [viewbox1]",
                 "idInternal": "62c5570a-9d95-4f1d-9aef-0c06b6814f99",
                 "parentContainer": 2,
                 "displayOD": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'} [viewbox1]",
-                "displayODtree": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'} [viewbox1]",
-                "crc": "4294963710",
+                "displayODtree": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'}[viewbox1]",
+                "crc": "4294939841",
                 "isCollapsed": false,
                 "parentIsCollapsed": false,
                 "containerStartIndex": 0,
@@ -916,7 +920,7 @@
                         "icon": "$$control.staticHTML",
                         "inTabPane": false,
                         "displaytext": "[viewbox1]",
-                        "display": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'} [viewbox1]",
+                        "display": "{B=White,Light Blue}{I:'vertline'}{Data=62c5570a-9d95-4f1d-9aef-0c06b6814f99}{I:'$$control.staticHTML'}[viewbox1]",
                         "istabcontrolend": false,
                         "lastItemInTabPane": false,
                         "inContainer": true,
@@ -927,15 +931,15 @@
                     "listView": {
                         "class": ""
                     },
+                    "flags": {
+                        "clientSideDefinition": false
+                    },
                     "precalc": {
                         "controlHTMLInPanelCard": "in panel card",
                         "javascript_viewBoxData": "{dialog.object}._viewBoxData['VIEWBOX1'] = [[dialog.viewBoxData.viewbox1]]; ",
                         "javascript_viewBoxSettings": "{dialog.object}._viewBoxSettings['VIEWBOX1'] = [[dialog.viewBoxSettings.viewbox1]]; ",
                         "javascript_viewBox": "{dialog.object}._controls['VIEWBOX1'] =  { type: 'viewBox',  data: {dialog.object}._viewBoxData['VIEWBOX1'],  onInitialize: function() { if(this._onInitialize) {this._onInitialize();} },  settings: {dialog.object}._viewBoxSettings['VIEWBOX1'] }",
                         "javascriptAbstractSetupCode": ""
-                    },
-                    "flags": {
-                        "clientSideDefinition": false
                     }
                 },
                 "precalc": {
@@ -946,21 +950,13 @@
             },
             {
                 "controlType": "layout_directive_ContainerEnd",
-                "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=1be7ac64-d44e-4dba-a702-c854eda1d6a8}{I:'vertLineCap'} [Window End: WINDOW_1] �",
+                "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=1be7ac64-d44e-4dba-a702-c854eda1d6a8}{I:'vertLineCap'}[Window End : WINDOW_1] �",
                 "displayODFlat": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=1be7ac64-d44e-4dba-a702-c854eda1d6a8}{I:'vertLineCap'} [Window End: WINDOW_1] �",
                 "idInternal": "1be7ac64-d44e-4dba-a702-c854eda1d6a8",
                 "parentContainer": 2,
                 "displayOD": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=1be7ac64-d44e-4dba-a702-c854eda1d6a8}{I:'vertLineCap'} [Window End: WINDOW_1] �",
                 "displayODtree": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=1be7ac64-d44e-4dba-a702-c854eda1d6a8}{I:'vertLineCap'} [Window End: WINDOW_1] �",
                 "crc": "4294911781",
-                "precalc": {
-                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
-                    "DesignViewHTML": ""
-                },
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
-                "containerStartIndex": 2,
-                "__flagwrapcontentsindiv": false,
                 "v": {
                     "container": {
                         "BreakType": "After",
@@ -983,20 +979,28 @@
                         "color": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}",
                         "icon": "vertLineCap",
                         "inTabPane": false,
-                        "displayText": "[Window End: WINDOW_1]",
+                        "displayText": "[Window End : WINDOW_1]",
                         "istabControlEnd": false,
-                        "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=1be7ac64-d44e-4dba-a702-c854eda1d6a8}{I:'vertLineCap'} [Window End: WINDOW_1] �",
+                        "display": "{C=#216+33+167,White}{B=White,#216+33+167}{F=+B}{Data=1be7ac64-d44e-4dba-a702-c854eda1d6a8}{I:'vertLineCap'}[Window End : WINDOW_1] �",
                         "lastItemInTabPane": false,
                         "inContainer": true,
                         "index": 6
                     }
-                }
+                },
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 2,
+                "__flagwrapcontentsindiv": false
             }
         ],
         "builderType": "Dialog2",
         "guid": "9bbf2bb8-9ba0-4b87-ad12-b1312eff5199",
         "componentName": "WINDOWDEMOINHERITED",
-        "componentFilename": "C:\\aa\\example\\example.WebProjects\\LiveDemo.WebProject\\windowDemoInherited.a5wcmp",
+        "componentFilename": "C:\\aa\\SampleApps\\SampleApps.WebProjects\\StylingApplications.WebProject\\windowDemoInherited.a5wcmp",
         "_style_versionNumber": 4,
         "_style_hasSassOverrides": false,
         "_style_hasCSSTweaks": false,
@@ -1027,9 +1031,9 @@
         "keyboardShortcutsJSON": "",
         "preRenderWarningMessageShow": true,
         "autoSetPreRenderOnForAllUX": false,
-        "selected": "62c5570a-9d95-4f1d-9aef-0c06b6814f99\n",
+        "selected": "b182cee9-4ccb-498e-9e62-870baaa68077\n",
         "designPaneIndex": 1,
-        "masterPaneC": "controls",
+        "masterPaneC": "TabbedUIProps",
         "serverSideEventIndex": 1,
         "clientSideEventIndex": 1,
         "clientSideEventIndexC": "1",
@@ -1040,12 +1044,12 @@
         "repeatingSectionsAreDirty": true,
         "flagDropdownCascadingChanged": false,
         "toolBox_value": "",
-        "addinBuildNumber": "5333",
-        "addinBuildNumberHighestUsed": "5333",
+        "addinBuildNumber": "5337",
+        "addinBuildNumberHighestUsed": "5337",
         "alphaFiveBuildNumber": "12",
         "openedFromTemplate": false,
         "builtWithVersionNumer": 1,
-        "_buildCount": "11",
+        "_buildCount": "14",
         "securityEnabled": false,
         "showHideIsUsed": false,
         "precalc": {
@@ -1197,7 +1201,7 @@
         "sassProcessor": true,
         "debugMode": false,
         "__jsLibraries": "<script type=\"text/javascript\" src=\"javascript/a5.js\"></script>\n<script type=\"text/javascript\" src=\"javascript/a5_url.js\"></script>\n",
-        "A5SaveTimeStamp": "20190731182416237",
+        "A5SaveTimeStamp": "20190802113941487",
         "a_actionJavascript": [
             {
                 "actionGuid": "8da52ef7-db23-47bc-a0d6-33726761faae",
@@ -1206,7 +1210,7 @@
         ],
         "flagOptimizedUXTree": true,
         "flagReanalyzeContainers": false,
-        "minimumBuildNumber": "",
+        "minimumBuildNumber": "6010",
         "_display": "",
         "style_color_palette": "",
         "customTabOrder": "",
@@ -1248,14 +1252,12 @@
             "count": 1
         },
         "_flagForceRecalcChildren": true,
-        "containerSubTypeNew": "",
-        "containerSubTypeOld": "",
         "prerendered": {
             "_styledataVersion": 4,
             "output": {
                 "Head": {
                     "JavaScript": "*gzip:H4sIAAAAAAAAC5WMsQ6CQBAFexP/Aa/Hq+gOOjsqf2Cznq84PPGyuyD8vSQUFlaWM5NM0CipWGVrQesMi/mBZ96tq1Ri677Cc3Me1HXB79wdD+HfAU2Sfyanun/x/bIYZOTcp5uwJGi9NSJByRzBdp1GS08QRVW1NcPe4IcSfQAk7ywxxgAAAA==",
-                    "CSS_Link": "*gzip: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",
+                    "CSS_Link": "*gzip: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",
                     "title": "*gzip:H4sIAAAAAAAAC7MpySzJSbULjbDRh7AAiMez8hEAAAA="
                 },
                 "body": {
