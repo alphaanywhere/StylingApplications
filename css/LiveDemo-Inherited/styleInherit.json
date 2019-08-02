@@ -1,0 +1,72 @@
+{
+	"inherit": "Alpha",
+	"variables": [],
+	"sass": ".titleDark {\r\n   color: white;\r\n   background-color: $foreSubtleColor;\r\n}\r\n\r\n.titleCloseButton {\r\n  fill: white;\r\n}\r\n",
+	"js": "A5.themes.add('LiveDemo-Inherited',{window: {darkTitleBar: {className: 'window',outerWrapClassName: '',innerWrapClassName: '',activeClassName: '',adjustmentClassName: '',lockUIClassName: 'lock',title: {location: '',direction: '',className: 'windowTitle titleDark',tools: {inset: '0px',verticalInset: '',className: ''}},header: {className: 'windowHeader'},tbar: {className: 'windowTBar'},body: {className: 'windowBody'},buttons: {className: 'windowButtons'},bbar: {className: 'windowBBar'},footer: {className: 'windowFooter'},resizer: {className: 'windowResize',thumbImage: 'cssIcon=windowResizeThumb'},pointer: {size: 10,upClassName: 'pointerUp',leftClassName: 'pointerLeft',downClassName: 'pointerDown',rightClassName: 'pointerRight'},_defaultTools: {close: {action: 'close',name: 'close',image: 'svgIcon=#alpha-icon-x:icon iconButton titleCloseButton',imageHover: 'svgIcon=#alpha-icon-xCircle:icon iconButton iconDeny',imagePressed: 'svgIcon=#alpha-icon-xCircle:icon iconButton iconDeny'}},_buttonDefaults: {className: 'button',hoverClassName: 'buttonHover',pressedClassName: 'buttonPressed',disabledClassName: 'buttonDisabled'}}}});",
+	"subthemes": {
+		"window": {
+			"darkTitleBar": {
+				"className": "window",
+				"outerWrapClassName": "",
+				"innerWrapClassName": "",
+				"activeClassName": "",
+				"adjustmentClassName": "",
+				"lockUIClassName": "lock",
+				"title": {
+					"location": "",
+					"direction": "",
+					"className": "windowTitle titleDark",
+					"tools": {
+						"inset": "0px",
+						"verticalInset": "",
+						"className": ""
+					}
+				},
+				"header": {
+					"className": "windowHeader"
+				},
+				"tbar": {
+					"className": "windowTBar"
+				},
+				"body": {
+					"className": "windowBody"
+				},
+				"buttons": {
+					"className": "windowButtons"
+				},
+				"bbar": {
+					"className": "windowBBar"
+				},
+				"footer": {
+					"className": "windowFooter"
+				},
+				"resizer": {
+					"className": "windowResize",
+					"thumbImage": "cssIcon=windowResizeThumb"
+				},
+				"pointer": {
+					"size": 10,
+					"upClassName": "pointerUp",
+					"leftClassName": "pointerLeft",
+					"downClassName": "pointerDown",
+					"rightClassName": "pointerRight"
+				},
+				"_defaultTools": {
+					"close": {
+						"action": "close",
+						"name": "close",
+						"image": "svgIcon=#alpha-icon-x:icon iconButton titleCloseButton",
+						"imageHover": "svgIcon=#alpha-icon-xCircle:icon iconButton iconDeny",
+						"imagePressed": "svgIcon=#alpha-icon-xCircle:icon iconButton iconDeny"
+					}
+				},
+				"_buttonDefaults": {
+					"className": "button",
+					"hoverClassName": "buttonHover",
+					"pressedClassName": "buttonPressed",
+					"disabledClassName": "buttonDisabled"
+				}
+			}
+		}
+	}
+}
