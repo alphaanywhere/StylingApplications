@@ -33,5 +33,6 @@ Coming soon!
 
 # Change Log
 
+- Aug  2, 2019: Added UX components & styles created as part of the July 31, 2019 Webinar
 - Mar 28, 2019: Updated README
 - Mar 28, 2019: Created Repository
