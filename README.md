@@ -6,10 +6,6 @@ Examples of styling applications in Alpha Anywhere
 
 Send your questions to [guides@alphasoftware.com](mailto:guides@alphasoftware.com)
 
-## Samples
-
-Coming Soon!
-
 ## Webinars
 
 <style>A series webinars on styling applications in Alpha Anywhere</style>
@@ -25,7 +21,7 @@ Links coming soon!
 
 In part 2, we take a look at using Style Tweaks to modify a system style - Alpha - and taking a look at how you might approach building up a set of Style Tweaks to modify the style for a project. We also talk about [Sass](https://sass-lang.com/) variables and nesting - a technique for grouping [descendent combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator) with the same parent.
 
-### Part 3? - January 29, 2020
+### Styling Apps - January 29, 2020
 
 In this presentation, we take a look at the tools available in Alpha Anywhere for modifying the style of an application. This is a high-level overview of the various builders and settings in Alpha Anywhere used to style applications. The presentation for this webinar can be found in the 'presentations' directory of this repository.
 
