@@ -2,7 +2,7 @@
 
 Examples of styling applications in Alpha Anywhere
 
-[Register for the Alpha Anywhere Demo and Q&A](https://www.alphasoftware.com/weekly-alpha-anywhere-overview-webinar)
+[Register for the Alpha Anywhere Demo and Q&A](https://register.gotowebinar.com/register/2151904088840275725) (2020 webinar link)
 
 Send your questions to [guides@alphasoftware.com](mailto:guides@alphasoftware.com)
 
