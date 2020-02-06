@@ -13,7 +13,7 @@ The following examples are available in this repository. The files listed in eac
 
 ### Sub-themes: Creating a Custom Sub-theme for a Window
 
-A Window is a popup dialog used to display a wide range of informatoin in applications from simple messages to whole components. These components demonstrate three different way of creating a custom Window sub-theme: as a style tweak, in an Inherited theme, and in a custom Web Theme. [Watch this Webinar on YouTube to learn more.](https://youtu.be/Udn-OTXaM0Y)
+A Window is a popup dialog used to display a wide range of information in applications from simple messages to whole components. These components demonstrate three different way of creating a custom Window sub-theme: as a style tweak, in an Inherited theme, and in a custom Web Theme. [Watch this Webinar on YouTube to learn more.](https://youtu.be/Udn-OTXaM0Y)
 
 - windowDemo: example of defining a new window sub-theme in a Web Theme created by copying the Alpha theme locally.
 - windowDemoInherited: example of defining a new window sub-theme in an Inherited Web Theme
