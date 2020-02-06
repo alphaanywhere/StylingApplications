@@ -51,7 +51,10 @@ In this presentation, we discuss Sub-Themes and how to create your own Sub-Theme
 
 In this presentation, we take a look at the tools available in Alpha Anywhere for modifying the style of an application. This is a high-level overview of the various builders and settings in Alpha Anywhere used to style applications. The presentation for this webinar can be found in the 'presentations' directory of this repository.
 
+[Watch the Webinar on YouTube!](https://youtu.be/7Y5CWBFHmYQ)
+
 # Change Log
+- Feb  6, 2020: Added link to Jan 29 webinar.
 - Feb  6, 2020: Added UX components & a5w page demonstrating how to dyamically set the style at run-time with a session variable.
 - Jan 29, 2020: Uploaded presentation for Jan 29, 2020 webinar
 - Aug  2, 2019: Added UX components & styles created as part of the July 31, 2019 Webinar
