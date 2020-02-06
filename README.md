@@ -2,37 +2,39 @@
 
 Examples of styling applications in Alpha Anywhere
 
-[Register for the Alpha Anywhere Demo and Q&A](https://www.alphasoftware.com/weekly-alpha-anywhere-overview-webinar)
+[Register for the Alpha Anywhere Demo and Q&A](https://register.gotowebinar.com/register/2151904088840275725) (2020 webinar link)
 
 Send your questions to [guides@alphasoftware.com](mailto:guides@alphasoftware.com)
-
-## Samples
-
-Coming Soon!
 
 ## Webinars
 
 <style>A series webinars on styling applications in Alpha Anywhere</style>
 
 
-### Part 1 - March 6, 2019
+### <style> Part 1 - March 6, 2019
 
-The first installmetn of a series of webinars on styling applications. In part 1, we start at the beginning. We discuss what an application _is_, define CSS, give a high-level overview of [Combinators]() with a deep-ish dive into the [_.classname_ combinator](), breifly touch on Alpha Web Themes (what they are), and go through a demonstration of how to style buttons in a UX separately from the core web theme. 
+The first installment of a series of webinars on styling applications. In part 1, we start at the beginning. We discuss what an application _is_, define CSS, give a high-level overview of [Combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) with a deep-ish dive into the [_.classname_ combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator), breifly touch on Alpha Web Themes (what they are), and go through a demonstration of how to style buttons in a UX separately from the core web theme. 
 
-Links coming soon!
+[Watch the Webinar on YouTube!](https://youtu.be/TdIpjWX59AE)
 
-### Part 2 - March 27, 2019
+### <style> Part 2 - March 27, 2019
 
 In part 2, we take a look at using Style Tweaks to modify a system style - Alpha - and taking a look at how you might approach building up a set of Style Tweaks to modify the style for a project. We also talk about [Sass](https://sass-lang.com/) variables and nesting - a technique for grouping [descendent combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator) with the same parent.
 
-Links coming soon!
+[Watch the Webinar on YouTube!](https://youtu.be/Udn-OTXaM0Y)
 
-## Videos
+### Sub-Themes (and also JSON) - July 31, 2019
 
-Coming soon!
+In this presentation, we discuss Sub-Themes and how to create your own Sub-Themes using the Web Theme Builder. During the webinar, we create a new Sub-Theme for a Window in the Alpha Web Theme. We also briefly talk about working with JSON data in Xbasic at the beginning of the webinar.
+
+[Watch the Webinar on YouTube!](https://youtu.be/Zebxd8RDN_Q)
+
+### Styling Apps - January 29, 2020
+
+In this presentation, we take a look at the tools available in Alpha Anywhere for modifying the style of an application. This is a high-level overview of the various builders and settings in Alpha Anywhere used to style applications. The presentation for this webinar can be found in the 'presentations' directory of this repository.
 
 # Change Log
-
+- Jan 29, 2019: Uploaded presentation for Jan 29, 2020 webinar
 - Aug  2, 2019: Added UX components & styles created as part of the July 31, 2019 Webinar
 - Mar 28, 2019: Updated README
 - Mar 28, 2019: Created Repository
