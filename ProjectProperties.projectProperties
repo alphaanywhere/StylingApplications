@@ -13,7 +13,7 @@
 <oauthEvents<onGotAccessToken="">
 <library="">
 >
-<projectStyle="GrGray">
+<projectStyle="Alpha">
 <useDirectPdf=.F.>
 <useMicrosoftXPSPrinterForPDF=.F.>
 <useBSONforSQLreporting=.T.>
@@ -49,6 +49,7 @@
 <saveFileType="">
 <showPublishCompleteDialog=.F.>
 <livePreviewMachineName="Localhost">
+<encryptPublishedComponents=.F.>
 >
 <googleMapsAPIKey="">
 <googleStaticMapsAPIKey="">
@@ -147,7 +148,17 @@
 >
 <stripe<keysJSON="">
 >
-<siteDefaults<guessedDefaultPage=.F.>
+<siteDefaults<guessedDefaultPage=.T.>
 <defaultpage="index.a5w">
 <maxUploadSizeMB=100>
+<cookieSameSite="Strict">
+<sessionTimeout=15>
+<sessionCookieName="XBasic_SessionId">
+<authenticationCookieName=".ASPXFORMSAUTH">
+>
+<protocol="https:">
+<componentcache<tableType="SQL">
+<connectionString="">
+<tableName="">
+<fieldmap="">
 >
