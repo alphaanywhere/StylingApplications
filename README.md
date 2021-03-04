@@ -24,6 +24,10 @@ A Window is a popup dialog used to display a wide range of information in applic
 - dynamicStyle: example of setting a component's style at run-time using session variables.
 - styleUploader: a "dummy" component used to publish the styles to the application server that you can pick from in dynamicStyle
 
+### Exploring CSS
+- panelFlipCSSDemo: example of modifying the 2 sided card with 3d animation ViewBox template to use an image as a background. Demonstrates background-image, background-size, background-repeat, background-position, background-color, padding, opactiy, and height. Example also includes additional information not presented during the webinar on how to change the template so that all cards will flip when their corresponding button is clicked.
+- borderedButtons: example showing how to overwrite the .button class to add a border to all buttons in a component. Includes bonus example of how to use the max-width property to restrict how wide a control can grow.
+
 ## Webinars
 
 <style>A series webinars on styling applications in Alpha Anywhere</style>
