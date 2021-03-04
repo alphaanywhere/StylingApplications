@@ -63,7 +63,7 @@ In this presentation, we highlight some CSS properties that are useful to know w
 
 The presentation for this webinar can be found in the 'presentations' directory of this repository.
 
-Video Link coming soon!
+[Watch the Webinar on YouTube!](https://www.youtube.com/watch?v=jcJs4_QBq_k)
 
 The components created during this webinar can be found in this repository:
  - panelFlipCSSDemo.a5cmp (requires all images in products folder to work)
