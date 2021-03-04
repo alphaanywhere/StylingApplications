@@ -2,7 +2,7 @@
 
 Examples of styling applications in Alpha Anywhere
 
-[Register for the Alpha Anywhere Demo and Q&A](https://register.gotowebinar.com/register/2151904088840275725) (2020 webinar link)
+[Register for the Alpha Anywhere Demo and Q&A](https://www.alphasoftware.com/weekly-alpha-anywhere-overview-webinar)
 
 Send your questions to [guides@alphasoftware.com](mailto:guides@alphasoftware.com)
 
@@ -53,7 +53,16 @@ In this presentation, we take a look at the tools available in Alpha Anywhere fo
 
 [Watch the Webinar on YouTube!](https://youtu.be/7Y5CWBFHmYQ)
 
+### Cascading Style Sheets - March 3, 2021
+
+In this presentation, we highlight some CSS properties that are useful to know when styling your Alpha Anywhere apps. Alpha Anywhere uses CSS to customize the appearance of your applications. These customizations can be added as externally linked CSS files or as the value for a control's property. Familiarizing yourself with some of the more common CSS directives used throughout Alpha will help you create classy apps that stand out among the competition. 
+
+The presentation for this webinar can be found in the 'presentations' directory of this repository.
+
+Video Link coming soon!
+
 # Change Log
+- Mar 4, 2021: Added presentation for Mar 3 webinar (powerpoint & pdf)
 - Feb  6, 2020: Added link to Jan 29 webinar.
 - Feb  6, 2020: Added UX components & a5w page demonstrating how to dyamically set the style at run-time with a session variable.
 - Jan 29, 2020: Uploaded presentation for Jan 29, 2020 webinar
