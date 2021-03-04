@@ -61,7 +61,12 @@ The presentation for this webinar can be found in the 'presentations' directory 
 
 Video Link coming soon!
 
+The components created during this webinar can be found in this repository:
+ - panelFlipCSSDemo.a5cmp (requires all images in products folder to work)
+ - borderedButtons.a5wcmp
+
 # Change Log
+- Mar 4, 2021: Added UX components & resources for Mar 3 webinar.
 - Mar 4, 2021: Added presentation for Mar 3 webinar (powerpoint & pdf)
 - Feb  6, 2020: Added link to Jan 29 webinar.
 - Feb  6, 2020: Added UX components & a5w page demonstrating how to dyamically set the style at run-time with a session variable.
